@@ -22,8 +22,8 @@ public class User {
     public User(String name, String mail, String password, LocalDate birthDate) {
         this.name = "defaultName";
         this.mail = "default.mail@adress.com";
-        this.password = "";
-        this.birthDate = birthDate;
+        this.password = "DefaultPassword123!";
+        this.birthDate = "";
     }
 
     public JSONObject returnJsonObj(){
