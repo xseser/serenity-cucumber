@@ -7,10 +7,10 @@ import net.serenitybdd.core.Serenity;
 
 public class Hooks {
 
-    @After
-    public void deleteProject(Scenario scenario) {
-        String projectId = Serenity.sessionVariableCalled("projectId");
-        RestHelper.deleteProject(projectId);
-
-    }
+//    @After
+//    public void deleteProject(Scenario scenario) {
+//        String projectId = Serenity.sessionVariableCalled("projectId");
+//        RestHelper.deleteProject(projectId);
+//
+//    }
 }
